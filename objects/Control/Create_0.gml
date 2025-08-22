@@ -1,0 +1,13 @@
+hp = 3;
+
+global.points = 0;
+global.maxcombo = 0;
+
+global.shop = false;
+global.shopmenu = false;
+global.coin = 0;
+
+global.items = 0;
+
+combo = 0;
+cur_cmb = 0;
