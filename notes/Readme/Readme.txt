@@ -1,0 +1,1 @@
+Este archivo sirve para saber como funciona el juego

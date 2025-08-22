@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Readme","order":16,"path":"notes/Readme/Readme.yy",},
     {"name":"Control","order":3,"path":"objects/Control/Control.yy",},
     {"name":"Debug","order":17,"path":"objects/Debug/Debug.yy",},
     {"name":"obj_boss1","order":23,"path":"objects/obj_boss1/obj_boss1.yy",},

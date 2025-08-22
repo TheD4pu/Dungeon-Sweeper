@@ -38,6 +38,7 @@
   "name":"Dungeon_Sweeper",
   "resources":[
     {"id":{"name":"Title","path":"fonts/Title/Title.yy",},},
+    {"id":{"name":"Readme","path":"notes/Readme/Readme.yy",},},
     {"id":{"name":"Control","path":"objects/Control/Control.yy",},},
     {"id":{"name":"Debug","path":"objects/Debug/Debug.yy",},},
     {"id":{"name":"obj_boss1","path":"objects/obj_boss1/obj_boss1.yy",},},

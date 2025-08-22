@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"",
+  "%Name":"Readme",
+  "name":"Readme",
+  "parent":{
+    "name":"Dungeon_Sweeper",
+    "path":"Dungeon_Sweeper.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}
