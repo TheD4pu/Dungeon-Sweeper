@@ -1,10 +1,7 @@
-if (global.paused){
+if (!global.paused){
+	global.paused = true;
 	
-	if (image_index = 0){
-		image_index = 1;
-	} else{
-		image_index = 0;
-	}
+	image_index = 1;
 	
 	//Dibujamos en SURFACE
 	if (surface_exists(surface_pausa))
@@ -27,4 +24,6 @@ if (global.paused){
 
 } else{
 	instance_activate_all();
+	image_index = 0;
+	global.paused = false;
 }

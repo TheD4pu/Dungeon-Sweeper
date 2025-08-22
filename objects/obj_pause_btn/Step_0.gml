@@ -1,6 +1,3 @@
-if (!window_has_focus()){
-	global.paused = true;
+if (!window_has_focus() && global.paused = false){
 	alarm[0] = 1;
-} else{
-	global.paused = false;
-}
+} 
