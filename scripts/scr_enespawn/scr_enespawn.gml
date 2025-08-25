@@ -12,7 +12,7 @@ function scr_enespawn(){
 		spawn_enemy(choose(8, 15), choose(0,1,1,4));
 	
 	} else if (enemy_limit = 15){
-		spawn_enemy(choose(8, 15), choose(0,0,3,4));
+		spawn_enemy(choose(8, 15), choose(0,0,0,3,3,4));
 	
 	} else if (enemy_limit = 10){
 		spawn_enemy(choose(15, 30), choose(0,1,1,2));

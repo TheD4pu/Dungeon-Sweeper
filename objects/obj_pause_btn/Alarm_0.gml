@@ -1,8 +1,6 @@
 if (!global.paused){
 	global.paused = true;
 	
-	image_index = 1;
-	
 	//Dibujamos en SURFACE
 	if (surface_exists(surface_pausa))
 	{

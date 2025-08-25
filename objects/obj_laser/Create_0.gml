@@ -17,4 +17,4 @@ wall = 0;
 
 origin = collision_line(x,y,1,1, obj_ene4_laser,false,true);
 
-alarm[0] = 90;
+alarm[0] = 60;
