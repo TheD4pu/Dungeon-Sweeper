@@ -4,6 +4,8 @@ laser_end = false;
 if (instance_exists(obj_player)){
 	laser_dir = point_direction(x, y, obj_player.x, obj_player.y);
 	image_angle = laser_dir;
+} else {
+	laser_dir = 0;
 }
 
 laser_width = 4;
