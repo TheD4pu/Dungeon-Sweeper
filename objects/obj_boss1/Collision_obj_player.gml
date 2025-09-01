@@ -6,8 +6,8 @@ if (instance_exists(obj_player) && obj_player.moving && !invincible){
 	shot_count = 0;
 
 	hp -= 1;
-	hp_spr += 1;
-	
+	image_blend = c_red;
+
 	if (hp <= 0){
 		scr_boss_dfeat();
 	}

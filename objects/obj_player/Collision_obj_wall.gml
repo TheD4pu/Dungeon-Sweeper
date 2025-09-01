@@ -1,9 +1,5 @@
 moving = false;
 delay = true;
-alarm[1] = 9;
-
-sprite_index = spr_player;
-
 bounce = true;
 
 if(instance_exists(obj_item1)){
@@ -21,5 +17,11 @@ if(instance_exists(obj_item1)){
 }
 
 if (instance_exists(obj_item4)){
-		instance_destroy(obj_item4_swords);
+	instance_destroy(obj_item4_swords);
 }
+
+if (!item5_shield){
+	sprite_index = spr_player;
+}
+
+alarm[1] = 9;

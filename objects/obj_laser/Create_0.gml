@@ -9,7 +9,7 @@ if (instance_exists(obj_player)){
 }
 
 laser_width = 4;
-laser_speed = 10; // optional for growing beam
+laser_speed = 16; // optional for growing beam
 
 x_end = 1;
 y_end = 1;
@@ -19,4 +19,4 @@ wall = 0;
 
 origin = collision_line(x,y,1,1, obj_ene4_laser,false,true);
 
-alarm[0] = 60;
+alarm[0] = 40;

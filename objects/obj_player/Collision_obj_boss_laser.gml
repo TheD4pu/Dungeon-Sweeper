@@ -4,6 +4,6 @@ if (instance_exists(obj_item2) && moving){
 	})
 	instance_destroy(other);
 	
-} else if (!hurt){
+} else if (!hurt && !item5_shield){
 	scr_hurt();
 }

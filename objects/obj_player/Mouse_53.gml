@@ -26,6 +26,7 @@ if (144 < mouse_x && mouse_x < 1104){
 		});
 	}
 	
-	sprite_index = spr_plyr_atk;
-
+	if (!item5_shield){
+		sprite_index = spr_plyr_atk;
+	}
 }

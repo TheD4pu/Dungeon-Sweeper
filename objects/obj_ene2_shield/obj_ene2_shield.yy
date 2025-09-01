@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ene_shield",
-    "path":"sprites/spr_ene_shield/spr_ene_shield.yy",
+    "name":"spr_ene_shielding",
+    "path":"sprites/spr_ene_shielding/spr_ene_shielding.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,12 +1,12 @@
 if(shild){
-	shild=false;
-	angl= point_direction(x,y,random(1248),random(720));
-	image_index=0;
+	shild = false;
+	angl = point_direction(x,y,random(1248),random(720));
+	sprite_index = spr_ene_shield;
 	
-	alarm[0]=90;
+	alarm[0] = 90;
 } else {
-	shild=true;
-	image_index=1;
+	shild = true;
+	sprite_index = spr_ene_shielding;
 	
-	alarm[0]=120;
+	alarm[0] = 120;
 }

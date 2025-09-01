@@ -1,11 +1,14 @@
 spd = 18; //velocidad
-moving=false; //check if moving
-delay=false;
-angl=0; //check player angle
-bounce=false;
+moving = false; //check if moving
+delay = false;
+angl = 0; //check player angle
+bounce = false;
 
-item3_moves=0;
+item3_moves = 0;
 
-hurt=false;
+item5_shield = false;
+item5_cooldown = false;
+
+hurt = false;
 
 

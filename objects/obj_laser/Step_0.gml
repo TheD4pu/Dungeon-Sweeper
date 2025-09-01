@@ -12,7 +12,7 @@ wall = collision_line(x, y, x_end, y_end, obj_wall, false, true);
 hit = collision_line(x, y, x_end, y_end, obj_player, false, true);
 
 
-if (hit != noone && obj_player.hurt = false) {
+if (hit != noone && obj_player.hurt = false && obj_player.item5_shield = false) {
 	scr_hurt();
 }
 

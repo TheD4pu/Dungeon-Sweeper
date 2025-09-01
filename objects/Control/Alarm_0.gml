@@ -1,6 +1,7 @@
 if(combo > cur_cmb && !global.shopmenu){
 	cur_cmb = combo;
 	alarm[0] = 60;
+	
 } else{
 	//update max combo
 	if(cur_cmb > global.maxcombo){

@@ -1,25 +1,20 @@
 if (global.shopmenu){
-	instance_destroy(obj_shop_menu);
-	y=-48
+
+	y = -48
 	
-	if(!obj_item1.purch){
-		instance_destroy(obj_item1);
+	show_debug_message(ds_list_size(obj_shop_menu.list_shop_items));
+	for (var i=0; i<ds_list_size(obj_shop_menu.list_shop_items); i++){
+		var shop_object = obj_shop_menu.list_shop_items[|i];
+		if(!shop_object.purch){
+			instance_destroy(shop_object);
+		}
 	}
+
 	
-	if(!obj_item2.purch){
-		instance_destroy(obj_item2);
-	}
-	
-	if(!obj_item3.purch){
-		instance_destroy(obj_item3);
-	}
-	
-	if(!obj_item4.purch){
-		instance_destroy(obj_item4);
-	}
-	
-	if(instance_exists(obj_heart_heal) && !obj_heart_heal.purch){
+	if(instance_exists(obj_heart_heal)){
 		instance_destroy(obj_heart_heal);
 	}
+	
+	instance_destroy(obj_shop_menu);
 }
-alarm[0]=60;
+alarm[0] = 60;

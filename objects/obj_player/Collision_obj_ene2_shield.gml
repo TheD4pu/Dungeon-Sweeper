@@ -10,6 +10,6 @@ if (obj_ene2_shield.shild && moving){
 	alarm[1] = 12;
 
 	bounce = true;
-} else if (!hurt && !moving){
+} else if (!hurt && !moving && !item5_shield){
 	scr_hurt();
 }
