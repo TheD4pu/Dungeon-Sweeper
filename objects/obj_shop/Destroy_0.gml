@@ -1,4 +1,4 @@
-global.shop=false;
+global.shop = false;
 instance_activate_object(obj_player);
 instance_activate_object(obj_spawner);
 

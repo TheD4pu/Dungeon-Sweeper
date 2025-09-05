@@ -1,6 +1,8 @@
 if (global.shopmenu){
 
 	y = -48
+	layer_background_change(layer_background_get_id(layer_get_id("Background")),spr_background);
+	instance_activate_object(obj_wall);
 	
 	show_debug_message(ds_list_size(obj_shop_menu.list_shop_items));
 	for (var i=0; i<ds_list_size(obj_shop_menu.list_shop_items); i++){

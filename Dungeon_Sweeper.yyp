@@ -37,6 +37,7 @@
   },
   "name":"Dungeon_Sweeper",
   "resources":[
+    {"id":{"name":"Description_text","path":"fonts/Description_text/Description_text.yy",},},
     {"id":{"name":"Title","path":"fonts/Title/Title.yy",},},
     {"id":{"name":"Readme","path":"notes/Readme/Readme.yy",},},
     {"id":{"name":"Control","path":"objects/Control/Control.yy",},},
@@ -77,6 +78,10 @@
     {"id":{"name":"scr_enespawn","path":"scripts/scr_enespawn/scr_enespawn.yy",},},
     {"id":{"name":"scr_heal","path":"scripts/scr_heal/scr_heal.yy",},},
     {"id":{"name":"scr_hurt","path":"scripts/scr_hurt/scr_hurt.yy",},},
+    {"id":{"name":"scr_random","path":"scripts/scr_random/scr_random.yy",},},
+    {"id":{"name":"scr_spawn_items","path":"scripts/scr_spawn_items/scr_spawn_items.yy",},},
+    {"id":{"name":"spr_background_shop","path":"sprites/spr_background_shop/spr_background_shop.yy",},},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_boss_eye","path":"sprites/spr_boss_eye/spr_boss_eye.yy",},},
     {"id":{"name":"spr_boss_laser","path":"sprites/spr_boss_laser/spr_boss_laser.yy",},},
     {"id":{"name":"spr_boss1","path":"sprites/spr_boss1/spr_boss1.yy",},},

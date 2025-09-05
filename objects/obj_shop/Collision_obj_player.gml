@@ -1,3 +1,8 @@
 if (!global.shopmenu){
-	instance_create_layer(624,360,"menus",obj_shop_menu);
+	instance_create_layer(624,400,"menus",obj_shop_menu, {
+		image_index: shop_sprite
+	});
+	
+	
+	layer_background_change(layer_background_get_id(layer_get_id("Background")),spr_background_shop);
 }

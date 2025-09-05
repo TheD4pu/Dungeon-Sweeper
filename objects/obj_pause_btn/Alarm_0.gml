@@ -24,4 +24,10 @@ if (!global.paused){
 	instance_activate_all();
 	image_index = 0;
 	global.paused = false;
+	if (global.shopmenu){
+		instance_deactivate_object(obj_wall);
+		instance_deactivate_object(obj_player);
+		instance_deactivate_object(obj_spawner);
+	}
+	
 }

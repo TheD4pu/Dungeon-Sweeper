@@ -1,1 +1,1 @@
-draw_text(32,584, "Ene_limit: " + string(obj_spawner.enemy_limit)); //spawn testing	
+//draw_text(32,584, "Ene_limit: " + string(obj_spawner.enemy_limit)); //spawn testing	

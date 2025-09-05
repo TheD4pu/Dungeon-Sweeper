@@ -4,7 +4,7 @@ if (instance_exists(obj_player)){
 }
 
 rebote += 1;
-if (rebote>=3){
+if (rebote >= 6){
 	instance_destroy();
 	image_angle = angl;
 	}
