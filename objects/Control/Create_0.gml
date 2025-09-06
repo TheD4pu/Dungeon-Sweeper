@@ -12,6 +12,8 @@ global.items = 0;
 combo = 0;
 cur_cmb = 0;
 
+scr_random();
+
 //colors
 
 brick_blue = make_color_rgb(30,70,195);
