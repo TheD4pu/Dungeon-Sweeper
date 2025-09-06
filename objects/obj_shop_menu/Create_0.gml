@@ -93,13 +93,10 @@ item2 = items_15[random_range(0,array_length(items_15))]
 
 scr_spawn_items(item1,posx_item1,posy_item1,item2,posx_item2,posy_item2,posx_heal,posy_heal);
 
-/*
+
 list_shop_items = ds_list_create();
 	
-for (var i=1; i<6; i++){
-	var shop_object = asset_get_index("obj_item" + string(i));
-	ds_list_add(list_shop_items, shop_object);
-	show_debug_message(shop_object);
-}
-*/
+ds_list_add(list_shop_items, item1);
+ds_list_add(list_shop_items, item2);
+
 instance_create_depth(400,112,-1,obj_extshop);
