@@ -1,0 +1,1 @@
+angl = point_direction(x,y,624,360);

@@ -52,7 +52,6 @@
     {"name":"scr_boss_dfeat","order":5,"path":"scripts/scr_boss_dfeat/scr_boss_dfeat.yy",},
     {"name":"scr_buy_item","order":6,"path":"scripts/scr_buy_item/scr_buy_item.yy",},
     {"name":"scr_enespawn","order":4,"path":"scripts/scr_enespawn/scr_enespawn.yy",},
-    {"name":"scr_heal","order":2,"path":"scripts/scr_heal/scr_heal.yy",},
     {"name":"scr_hurt","order":1,"path":"scripts/scr_hurt/scr_hurt.yy",},
     {"name":"scr_random","order":8,"path":"scripts/scr_random/scr_random.yy",},
     {"name":"scr_spawn_items","order":7,"path":"scripts/scr_spawn_items/scr_spawn_items.yy",},

@@ -8,13 +8,6 @@ function scr_hurt(){
 	Control.combo = 0;
 	Control.alarm[0] = 1;
 	
-	//ui update
-	if (Control.hp == 2){
-		obj_hp.image_index = 2;
-	} else{
-		obj_hp.image_index = 1;
-	}
-	
 	if(Control.hp < 1){
 		obj_hp.image_index = 0;
 		instance_destroy(obj_player);

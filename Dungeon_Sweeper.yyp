@@ -76,7 +76,6 @@
     {"id":{"name":"scr_buy_item","path":"scripts/scr_buy_item/scr_buy_item.yy",},},
     {"id":{"name":"scr_enedft","path":"scripts/scr_enedft/scr_enedft.yy",},},
     {"id":{"name":"scr_enespawn","path":"scripts/scr_enespawn/scr_enespawn.yy",},},
-    {"id":{"name":"scr_heal","path":"scripts/scr_heal/scr_heal.yy",},},
     {"id":{"name":"scr_hurt","path":"scripts/scr_hurt/scr_hurt.yy",},},
     {"id":{"name":"scr_random","path":"scripts/scr_random/scr_random.yy",},},
     {"id":{"name":"scr_spawn_items","path":"scripts/scr_spawn_items/scr_spawn_items.yy",},},
