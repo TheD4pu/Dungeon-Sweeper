@@ -7,7 +7,4 @@ if (instance_exists(obj_player) && obj_player.moving && !invincible){
 		scr_boss_dfeat();
 	}
 	alarm[0]=180;
-} else if (!obj_player.moving && !invincible){
-	scr_hurt();
 }
-

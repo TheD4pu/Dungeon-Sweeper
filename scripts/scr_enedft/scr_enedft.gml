@@ -14,7 +14,10 @@ function scr_enedft(){
 			obj_player.sprite_index = spr_item5player;
 			obj_player.alarm [2] = 300;
 		}
-	}
 	
-
+		heart_spawn = irandom(20);
+		if (heart_spawn = 1){
+			instance_create_layer(x,y,"Instances",obj_heal_random);
+		}
+	}
 }

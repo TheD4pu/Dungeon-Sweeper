@@ -104,4 +104,4 @@ list_shop_items = ds_list_create();
 ds_list_add(list_shop_items, item1);
 ds_list_add(list_shop_items, item2);
 
-instance_create_depth(400,112,-1,obj_extshop);
+instance_create_depth(400,112,-1,obj_shop_exit);

@@ -18,6 +18,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_ene4_laser","path":"objects/obj_ene4_laser/obj_ene4_laser.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_boss_laser","path":"objects/obj_boss_laser/obj_boss_laser.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_boss_eye","path":"objects/obj_boss_eye/obj_boss_eye.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_player",

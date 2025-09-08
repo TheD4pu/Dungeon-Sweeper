@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_heal",
-    "path":"sprites/spr_heal/spr_heal.yy",
+    "name":"spr_heal_shop",
+    "path":"sprites/spr_heal_shop/spr_heal_shop.yy",
   },
   "spriteMaskId":null,
   "visible":true,
