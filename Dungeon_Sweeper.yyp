@@ -109,6 +109,7 @@
     {"id":{"name":"spr_ene_shield","path":"sprites/spr_ene_shield/spr_ene_shield.yy",},},
     {"id":{"name":"spr_ene_shielding","path":"sprites/spr_ene_shielding/spr_ene_shielding.yy",},},
     {"id":{"name":"spr_ene_wizard","path":"sprites/spr_ene_wizard/spr_ene_wizard.yy",},},
+    {"id":{"name":"spr_game_title","path":"sprites/spr_game_title/spr_game_title.yy",},},
     {"id":{"name":"spr_heal_random","path":"sprites/spr_heal_random/spr_heal_random.yy",},},
     {"id":{"name":"spr_heal_shop","path":"sprites/spr_heal_shop/spr_heal_shop.yy",},},
     {"id":{"name":"spr_hp","path":"sprites/spr_hp/spr_hp.yy",},},

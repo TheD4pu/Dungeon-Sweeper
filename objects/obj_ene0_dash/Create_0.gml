@@ -1,5 +1,8 @@
-spd=12;
-angl=0;
-atking=false;
+spd = 12;
+angl = 0;
+atking = false;
 
-alarm[0]=80;
+atk_rate = choose(180,210);
+
+alarm[1] = 20;
+alarm[0] = 80;

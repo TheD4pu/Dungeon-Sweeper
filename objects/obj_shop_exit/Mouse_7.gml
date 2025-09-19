@@ -21,4 +21,6 @@ if (global.shopmenu){
 	
 	instance_destroy(obj_shop_menu);
 }
+obj_shop.show_self = true;
+instance_activate_object(obj_player);
 alarm[0] = 60;

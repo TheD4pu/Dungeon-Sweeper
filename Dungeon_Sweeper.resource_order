@@ -83,6 +83,7 @@
     {"name":"spr_ene_shield","order":33,"path":"sprites/spr_ene_shield/spr_ene_shield.yy",},
     {"name":"spr_ene_shielding","order":18,"path":"sprites/spr_ene_shielding/spr_ene_shielding.yy",},
     {"name":"spr_ene_wizard","order":5,"path":"sprites/spr_ene_wizard/spr_ene_wizard.yy",},
+    {"name":"spr_game_title","order":41,"path":"sprites/spr_game_title/spr_game_title.yy",},
     {"name":"spr_heal_random","order":36,"path":"sprites/spr_heal_random/spr_heal_random.yy",},
     {"name":"spr_heal_shop","order":17,"path":"sprites/spr_heal_shop/spr_heal_shop.yy",},
     {"name":"spr_hp","order":15,"path":"sprites/spr_hp/spr_hp.yy",},

@@ -4,6 +4,7 @@ function scr_enedft(){
 		instance_destroy();
 		global.points += 1;
 		obj_spawner.enemy_count -= 1;
+		obj_spawner.alarm[0] = 20;
 		
 		Control.combo += 1;
 		Control.alarm[0] = 1;

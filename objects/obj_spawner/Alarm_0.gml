@@ -4,7 +4,7 @@ if (global.points >= enemy_limit*10){
 	if(!instance_exists(obj_shop) && (enemy_limit*10 <= global.points) && global.points < 550){
 		enemy_limit += 5;
 		global.shop = true;
-		instance_create_layer(624,-32,"bullet",obj_shop);
+		instance_create_layer(624,-32,"Instances_1",obj_shop);
 	} else {
 		enemy_limit += 5;
 	}

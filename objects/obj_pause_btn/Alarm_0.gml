@@ -18,11 +18,18 @@ if (!global.paused){
 		surface_reset_target();
 	}
 
-		instance_deactivate_all(true);
-		instance_activate_object(obj_restart);
+	instance_deactivate_all(true);
+	instance_activate_object(obj_restart);
 
 } else{
 	instance_activate_all();
+	x = 1200;
+	y = 48;
+	
+	obj_restart.x = 1200; 
+	obj_restart.y = 144;
+	
+	
 	image_index = 0;
 	global.paused = false;
 	if (global.shopmenu){

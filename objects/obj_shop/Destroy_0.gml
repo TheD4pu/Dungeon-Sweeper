@@ -1,5 +1,5 @@
 global.shop = false;
-instance_activate_object(obj_player);
+
 instance_activate_object(obj_spawner);
 
 if (heart){
@@ -11,3 +11,4 @@ if(global.points >= 150){
 }
 
 Control.alarm[0] = 90;
+obj_spawner.alarm [0] = 30;

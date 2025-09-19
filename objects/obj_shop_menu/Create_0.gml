@@ -7,6 +7,8 @@ brick_blue = make_color_rgb(30,70,195);
 instance_deactivate_object(obj_player);
 instance_deactivate_object(obj_spawner);
 instance_deactivate_object(obj_wall);
+instance_destroy(obj_item1blt);
+instance_destroy(obj_bullet);
 
 if (instance_exists(obj_heal_random)){
 	instance_deactivate_object(obj_heal_random);
