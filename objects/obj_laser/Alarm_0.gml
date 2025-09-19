@@ -1,1 +1,2 @@
-instance_destroy()
+instance_destroy();
+origin.image_index = 0;

@@ -19,6 +19,7 @@ if (!global.paused){
 	}
 
 		instance_deactivate_all(true);
+		instance_activate_object(obj_restart);
 
 } else{
 	instance_activate_all();

@@ -35,5 +35,6 @@ function spawn_enemy(alarm_time, enemy_type){
 	} until (player_y + 48 < enemy_y) || (enemy_y < player_y - 48)
 			
 	instance_create_layer(enemy_x, enemy_y, "Instances", enemy_list[enemy_type]);
+	instance_create_layer(enemy_x, enemy_y, "bullet", obj_spawn_effect);
 	enemy_count += 1;
 }

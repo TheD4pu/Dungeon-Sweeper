@@ -6,12 +6,13 @@ function scr_enedft(){
 		obj_spawner.enemy_count -= 1;
 		
 		Control.combo += 1;
-		Control.alarm[0] = 60;
+		Control.alarm[0] = 1;
+		Control.combo_UI_timer = 180;
 		
 		if (instance_exists(obj_item5) && obj_player.item5_shield = false && obj_player.item5_cooldown = false && Control.combo >= 5){
 			obj_player.item5_shield = true;
 			obj_player.item5_cooldown = true;
-			obj_player.sprite_index = spr_item5player;
+			obj_player.sprite_index = spr_item5player_atk;
 			obj_player.alarm [2] = 300;
 		}
 	

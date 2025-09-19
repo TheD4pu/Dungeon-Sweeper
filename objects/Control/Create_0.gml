@@ -11,6 +11,8 @@ global.items = 0;
 
 combo = 0;
 cur_cmb = 0;
+combo_UI_timer = 30;
+
 
 scr_random();
 

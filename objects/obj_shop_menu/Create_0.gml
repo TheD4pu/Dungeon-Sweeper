@@ -8,6 +8,11 @@ instance_deactivate_object(obj_player);
 instance_deactivate_object(obj_spawner);
 instance_deactivate_object(obj_wall);
 
+if (instance_exists(obj_heal_random)){
+	instance_deactivate_object(obj_heal_random);
+}
+
+
 items_10 = [];
 items_15 = [];
 

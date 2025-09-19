@@ -22,11 +22,14 @@ if (144 < mouse_x && mouse_x < 1104){
 		
 		instance_create_layer(x,y,"Instances_1",obj_item4_swords, {
 			image_angle : 180,
+			image_index : 1,
 			direction : obj_player.angl
 		});
 	}
 	
 	if (!item5_shield){
 		sprite_index = spr_plyr_atk;
+	} else {
+		sprite_index = spr_item5player_atk;
 	}
 }

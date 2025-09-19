@@ -6,7 +6,8 @@ function scr_bltenedft(){
 		obj_spawner.enemy_count -= 1;
 		
 		Control.combo += 1;
-		Control.alarm[0] = 30;
+		Control.alarm[0] = 1;
+		Control.combo_UI_timer = 180;
 		
 		if (instance_exists(obj_item5) && obj_player.item5_shield = false && obj_player.item5_cooldown = false && Control.combo >= 10){
 			obj_player.item5_shield = true;

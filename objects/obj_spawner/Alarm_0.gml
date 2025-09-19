@@ -14,13 +14,13 @@ if (!boss_fight && global.points > 525 && !global.shop){
 	scr_enespawn();
 	alarm[1] = 180;
 	boss_fight = true;
-	image_index = 1;
+	sprite_index = spr_spawn_boss;
 	
 } else if (boss_spawn && global.points <= 500 && !global.shop) {
 	alarm[1] = 240;
 	boss_fight = true;
 	boss_spawn = false;
-	image_index = 1;
+	sprite_index = spr_spawn_boss;
 
 } else {
 	scr_enespawn();
