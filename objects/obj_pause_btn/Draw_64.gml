@@ -22,4 +22,3 @@ if(global.paused)
 	draw_text_color((camera_get_view_width(view_camera[0])/2)+2,(camera_get_view_height(view_camera[0])*(2/5))+2,"PAUSED",brick_blue,brick_blue,brick_blue,brick_blue,1);
 	draw_text(camera_get_view_width(view_camera[0])/2,camera_get_view_height(view_camera[0])*(2/5),"PAUSED");
 }
-

@@ -19,6 +19,7 @@ if (!global.paused){
 	}
 	audio_stop_all();
 	instance_deactivate_all(true);
+	instance_activate_object(System_Innit);
 	instance_activate_object(obj_restart);
 
 } else{
