@@ -4,8 +4,8 @@ if (!purch){
 	draw_set_halign(fa_center);
 	draw_set_font(Title);
 
-	draw_text_color(posx_item1+24,posy_item1-32,"$"+ string(cost),brick_blue,brick_blue,brick_blue,brick_blue,1);
-	draw_text(posx_item1+22,posy_item1-30,"$"+ string(cost));
+	draw_text_color(x+24,y-32,"$"+ string(cost),brick_blue,brick_blue,brick_blue,brick_blue,1);
+	draw_text(x+22,y-30,"$"+ string(cost));
 }
 
 if (description){

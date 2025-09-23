@@ -129,6 +129,7 @@
     {"id":{"name":"spr_item5","path":"sprites/spr_item5/spr_item5.yy",},},
     {"id":{"name":"spr_item5player_atk","path":"sprites/spr_item5player_atk/spr_item5player_atk.yy",},},
     {"id":{"name":"spr_item5player","path":"sprites/spr_item5player/spr_item5player.yy",},},
+    {"id":{"name":"spr_item6","path":"sprites/spr_item6/spr_item6.yy",},},
     {"id":{"name":"spr_laser","path":"sprites/spr_laser/spr_laser.yy",},},
     {"id":{"name":"spr_pause_btn","path":"sprites/spr_pause_btn/spr_pause_btn.yy",},},
     {"id":{"name":"spr_play_start_button","path":"sprites/spr_play_start_button/spr_play_start_button.yy",},},

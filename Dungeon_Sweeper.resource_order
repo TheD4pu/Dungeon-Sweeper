@@ -102,6 +102,7 @@
     {"name":"spr_item5","order":31,"path":"sprites/spr_item5/spr_item5.yy",},
     {"name":"spr_item5player_atk","order":38,"path":"sprites/spr_item5player_atk/spr_item5player_atk.yy",},
     {"name":"spr_item5player","order":32,"path":"sprites/spr_item5player/spr_item5player.yy",},
+    {"name":"spr_item6","order":44,"path":"sprites/spr_item6/spr_item6.yy",},
     {"name":"spr_laser","order":27,"path":"sprites/spr_laser/spr_laser.yy",},
     {"name":"spr_pause_btn","order":20,"path":"sprites/spr_pause_btn/spr_pause_btn.yy",},
     {"name":"spr_play_start_button","order":37,"path":"sprites/spr_play_start_button/spr_play_start_button.yy",},

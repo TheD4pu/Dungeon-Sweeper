@@ -1,12 +1,11 @@
 var base_w = 1280;
 var base_h = 720;
+var max_w = 1280;
+var max_h = 720;
 
 if (os_type != os_windows){
-	var max_w = display_get_width();
-	var max_h = display_get_height();
-} else {
-	var max_w = 1280;
-	var max_h = 720;
+	max_w = display_get_width();
+	max_h = display_get_height();
 }
 
 var aspect = max_w / max_h;

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_hp",
-    "path":"sprites/spr_hp/spr_hp.yy",
+    "name":"spr_item6",
+    "path":"sprites/spr_item6/spr_item6.yy",
   },
   "spriteMaskId":null,
   "visible":true,

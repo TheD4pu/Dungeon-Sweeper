@@ -1,4 +1,6 @@
 //Sólo dibujar esto cuando este pausado
+draw_self();
+
 if(global.paused)
 {
 	//Dibujamos SURFACE
