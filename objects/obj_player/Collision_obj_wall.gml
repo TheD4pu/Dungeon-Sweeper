@@ -24,7 +24,9 @@ if (instance_exists(obj_item4)){
 
 if (!item5_shield){
 	sprite_index = spr_player;
+	audio_play_sound(wav_wall_hit,1,false);
 } else {
 	sprite_index = spr_item5player;
+	audio_play_sound(wav_wall_hit,1,false);
 }
 

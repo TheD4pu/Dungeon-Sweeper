@@ -1,5 +1,7 @@
 alarm[0]=60;
 
+obj_player.delay = false;
+
 show_self = true;
 
 if (instance_exists(obj_heal_random)){

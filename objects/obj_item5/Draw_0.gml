@@ -1,5 +1,13 @@
 draw_self();
 
+if (!purch){
+	draw_set_halign(fa_center);
+	draw_set_font(Title);
+
+	draw_text_color(posx_item1+24,posy_item1-32,"$"+ string(cost),brick_blue,brick_blue,brick_blue,brick_blue,1);
+	draw_text(posx_item1+22,posy_item1-30,"$"+ string(cost));
+}
+
 if (description){
 	draw_set_alpha(0.5);
 	draw_roundrect_color(x-148,y-26,x+196,y-2,0,0,false);

@@ -13,8 +13,9 @@ function scr_hurt(){
 	if(Control.hp < 1){
 		obj_hp.image_index = 0;
 		instance_destroy(obj_player);
-		obj_restart.x = camera_get_view_width(view_camera[0])/2;
-		obj_restart.y = 380;
+		audio_play_sound(wav_player_defeat,1,false);
+		obj_restart.x = camera_get_view_width(view_camera[0])*(29/60);
+		obj_restart.y = 350;
 		global.ad_count -= 1;
 		
 		/*if (global.ad_count <= 0){

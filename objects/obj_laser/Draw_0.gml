@@ -1,5 +1,5 @@
 // Basic settings
-var mid_frame_width = sprite_get_width(spr_laser); // assuming all frames are same height
+var mid_frame_width = sprite_get_width(spr_laser)-16; // assuming all frames are same height
 
 // Draw base (frame 0)
 draw_sprite_ext(spr_laser, 0, x, y, 1, 1, image_angle, c_white, 1);
@@ -9,7 +9,7 @@ var step_x = lengthdir_x(1, image_angle);
 var step_y = lengthdir_y(1, image_angle);
 
 // How many pixels to offset from origin
-var offset = sprite_get_width(spr_laser);
+var offset = sprite_get_width(spr_laser)-16;
 
 // Remaining distance after base and tip
 var body_length = laser_length - floor(offset*1.5);

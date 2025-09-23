@@ -23,9 +23,11 @@ draw_text(32,446, "COIN: " + string(global.coin));
 
 //draw_text(32,544, "Shop: " + string(global.shop)); //shop testing	
 
-if (!instance_exists(obj_player) && global.shop = false){
+if (!instance_exists(obj_player) && global.shopmenu = false){
+	draw_roundrect_color(camera_get_view_width(view_camera[0])/4,camera_get_view_height(view_camera[0])/3,(camera_get_view_width(view_camera[0])/15)*11,(camera_get_view_height(view_camera[0])/3)*2,dark_blue,dark_blue,false);
+	
 	draw_set_halign(fa_center);
 
-	draw_text_color(camera_get_view_width(view_camera[0])/2,322, "GAME OVER",brick_blue,brick_blue,brick_blue,brick_blue,1);
-	draw_text((camera_get_view_width(view_camera[0])/2)-2,320, "GAME OVER");
+	draw_text_color(camera_get_view_width(view_camera[0])/2,272, "GAME OVER",brick_blue,brick_blue,brick_blue,brick_blue,1);
+	draw_text((camera_get_view_width(view_camera[0])/2)-2,270, "GAME OVER");
 }

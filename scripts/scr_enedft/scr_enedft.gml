@@ -5,6 +5,7 @@ function scr_enedft(){
 		global.points += 1;
 		obj_spawner.enemy_count -= 1;
 		obj_spawner.alarm[0] = 20;
+		audio_play_sound(wav_ene_defeat,1,false);
 		
 		Control.combo += 1;
 		Control.alarm[0] = 1;

@@ -1,7 +1,7 @@
-if (144 < mouse_x && mouse_x < 1104){
+if (144 < mouse_x && mouse_x < 1104 && !delay){
 	if (instance_exists(obj_item3) && item3_moves <= 1){
 	
-		if (!global.shopmenu && !delay){
+		if (!global.shopmenu){
 		
 			angl= point_direction(x,y,mouse_x,mouse_y);
 			moving = true;
@@ -9,7 +9,7 @@ if (144 < mouse_x && mouse_x < 1104){
 		
 		}
 	
-	} else if (!moving && !global.shopmenu && !delay){
+	} else if (!moving && !global.shopmenu){
 	
 		angl = point_direction(x,y,mouse_x,mouse_y);
 		moving = true;

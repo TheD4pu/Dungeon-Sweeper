@@ -17,12 +17,13 @@ if (!global.paused){
 		draw_sprite(sprite_pausa,0,0,0);
 		surface_reset_target();
 	}
-
+	audio_stop_all();
 	instance_deactivate_all(true);
 	instance_activate_object(obj_restart);
 
 } else{
 	instance_activate_all();
+	audio_resume_all();
 	x = 1200;
 	y = 48;
 	

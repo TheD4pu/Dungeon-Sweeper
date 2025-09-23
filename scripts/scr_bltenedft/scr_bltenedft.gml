@@ -4,6 +4,7 @@ function scr_bltenedft(){
 		instance_destroy();
 		global.points += 1;
 		obj_spawner.enemy_count -= 1;
+		audio_play_sound(wav_ene_defeat,1,false);
 		
 		Control.combo += 1;
 		Control.alarm[0] = 1;

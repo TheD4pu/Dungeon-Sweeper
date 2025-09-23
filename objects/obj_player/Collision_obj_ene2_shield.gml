@@ -6,10 +6,9 @@ if (obj_ene2_shield.shild && moving){
 	
 } else if (obj_ene2_shield.shild){
 	angl = -angl;
-	delay = true;
-	alarm[1] = 12;
-
 	bounce = true;
+	alarm[1] = 12;
+	
 } else if (!hurt && !moving && !item5_shield){
 	scr_hurt();
 }

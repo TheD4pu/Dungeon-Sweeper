@@ -1,0 +1,3 @@
+if (tutorial && opacity < 1){
+	opacity += 0.1;
+}
