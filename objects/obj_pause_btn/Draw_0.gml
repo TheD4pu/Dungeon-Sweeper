@@ -6,13 +6,13 @@ if(global.paused)
 	//Dibujamos SURFACE
 	if(surface_exists(surface_pausa))
 	{
-		draw_surface(surface_pausa,0,0);
+		draw_surface(surface_pausa,640 - camera_get_view_width(view_camera[0])/2,0);
 	}
 	else
 	{
-		surface_pausa=surface_create(room_width,room_height);
+		surface_pausa = surface_create(room_width,room_height);
 		surface_set_target(surface_pausa);
-		draw_sprite(sprite_pausa,0,0,0);
+		draw_sprite(sprite_pausa,640 - camera_get_view_width(view_camera[0])/2,0,0);
 		surface_reset_target();
 	}
 	

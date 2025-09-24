@@ -6,7 +6,7 @@ if (!global.paused){
 	{
 		surface_set_target(surface_pausa);
 		sprite_pausa=sprite_create_from_surface(application_surface,0,0,room_width,room_height,0,0,0,0);
-		draw_sprite(sprite_pausa,0,0,0);
+		draw_sprite(sprite_pausa,640 - camera_get_view_width(view_camera[0])/2,0,0);
 		surface_reset_target();
 	}
 	else
@@ -14,7 +14,7 @@ if (!global.paused){
 		surface_pausa=surface_create(room_width,room_height);
 		surface_set_target(surface_pausa);
 		sprite_pausa=sprite_create_from_surface(application_surface,0,0,room_width,room_height,0,0,0,0);
-		draw_sprite(sprite_pausa,0,0,0);
+		draw_sprite(sprite_pausa,640 - camera_get_view_width(view_camera[0])/2,0,0);
 		surface_reset_target();
 	}
 	audio_stop_all();
