@@ -1,21 +1,17 @@
 moving = false;
 delay = true;
-bounce = true;
 
+bounce_center = point_direction(x,y,(camera_get_view_width(view_camera[0])/2)+global.camera_offset,camera_get_view_height(view_camera[0])/2);
+bounce = true;
 alarm[1] = 9;
 
+if (global.shake_setting){
+	Control.screen_shake = 1;
+	Control.alarm[1] = 2;
+}
+
 if(instance_exists(obj_item1)){
-	var bull = instance_create_layer(x,y,"bullet",obj_item1blt,{
-		direction : obj_player.angl+180
-	})
-	
-	var bull2 = instance_create_layer(x,y,"bullet",obj_item1blt,{
-		direction : obj_player.angl+225
-	})
-	
-	var bull3 = instance_create_layer(x,y,"bullet",obj_item1blt,{
-		direction : obj_player.angl+135
-	})
+	item1_function();
 }
 
 if (instance_exists(obj_item4)){

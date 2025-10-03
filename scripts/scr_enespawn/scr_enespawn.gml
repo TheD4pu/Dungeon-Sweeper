@@ -18,7 +18,9 @@ function scr_enespawn(){
 	instance_create_layer(enemy_x, enemy_y, "Instances", obj_spawn_effect);
 
 	// enemy spawn
-	if (obj_spawner.enemy_limit >= 25){
+	if (obj_spawner.enemy_limit >= 50){
+		alarm[0] = random_range(1,5);
+	} else if (obj_spawner.enemy_limit >= 25){
 		alarm[0] = random_range(5,15);
 	} else if (obj_spawner.enemy_limit = 20){
 		alarm[0] = choose(8, 15);

@@ -5,14 +5,14 @@ if(combo > cur_cmb && !global.shopmenu){
 	
 		//give money
 	if(floor(combo/5) == (combo/5)){
-		global.coin += 3;
+		global.coin += 2;
 	} 
 	
 } else if(global.shopmenu) { 
 	cur_cmb = combo;
 	combo_UI_timer = 180;
 	if(floor(combo/5) == (combo/5)){
-		global.coin += 3;
+		global.coin += 2;
 	} 
 	
 	

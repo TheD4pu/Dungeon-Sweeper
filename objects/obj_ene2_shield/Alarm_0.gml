@@ -1,6 +1,6 @@
 if(shild){
 	shild = false;
-	angl = point_direction(x,y,random(1248),random(720));
+	angl = irandom(360);
 	sprite_index = spr_ene_shield;
 	
 	alarm[0] = 90;

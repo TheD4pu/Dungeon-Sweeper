@@ -9,6 +9,7 @@ if (!laser_end) {
 
 // Check collision
 wall = collision_line(x, y, x_end, y_end, obj_wall, false, true);
+blocker = collision_line(x, y, x_end, y_end, obj_ene5_blocker, false, true);
 hit = collision_line(x, y, x_end, y_end, obj_player, false, true);
 
 
@@ -17,7 +18,7 @@ if (hit != noone && obj_player.hurt = false && obj_player.item5_shield = false) 
 }
 
 
-if (wall != noone){
+if (wall != noone || blocker != noone){
 	laser_end = true;
 }
 

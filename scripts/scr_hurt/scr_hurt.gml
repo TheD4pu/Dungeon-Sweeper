@@ -8,13 +8,21 @@ function scr_hurt(){
 	Control.combo = 0;
 	Control.alarm[0] = 1;
 	
+	if (instance_exists(obj_item9)){
+		var orb = choose(1,2,3);
+			
+		if (orb = 3){
+			instance_create_layer(x,y,"bullet",obj_item9_orbiter);
+		}
+	}
+	
 	
 	//Game end
 	if(Control.hp < 1){
 		obj_hp.image_index = 0;
 		instance_destroy(obj_player);
 		audio_play_sound(wav_player_defeat,1,false);
-		obj_restart.x = camera_get_view_width(view_camera[0])*(29/60);
+		obj_restart.x = camera_get_view_width(view_camera[0])*(29/60)+global.camera_offset;
 		obj_restart.y = 350;
 		global.ad_count -= 1;
 		

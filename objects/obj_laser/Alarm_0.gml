@@ -1,2 +1,4 @@
 instance_destroy();
-origin.image_index = 0;
+if (instance_exists(origin)){
+	origin.image_index = 0;
+}

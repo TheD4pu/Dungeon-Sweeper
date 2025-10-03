@@ -2,13 +2,18 @@ global.shopmenu = true;
 
 image_index = obj_shop.shop_sprite;
 
-brick_blue = make_color_rgb(30,70,195);
-
 instance_deactivate_object(obj_player);
 instance_deactivate_object(obj_spawner);
 instance_deactivate_object(obj_wall);
+instance_deactivate_object(obj_item10_rat);
 instance_destroy(obj_item1blt);
 instance_destroy(obj_bullet);
+instance_destroy(obj_item4_swords);
+instance_destroy(obj_item8_bomb);
+
+if (instance_exists(obj_item9_orbiter)){
+	instance_deactivate_object(obj_item9_orbiter);
+}
 
 if (instance_exists(obj_heal_random)){
 	instance_deactivate_object(obj_heal_random);
@@ -35,6 +40,15 @@ if (!instance_exists(obj_item5)){
 }	
 if (!instance_exists(obj_item6)){
 	array_push(items_15,obj_item6);
+}	
+if (!instance_exists(obj_item7)){
+	array_push(items_10,obj_item7);
+}
+if (!instance_exists(obj_item8)){
+	array_push(items_15,obj_item8);
+}	
+if (!instance_exists(obj_item9)){
+	array_push(items_10,obj_item9);
 }	
 
 switch (obj_shop.shop_sprite){
@@ -97,7 +111,7 @@ if (array_length(items_10)=0){
 	item1 = items_10[random_range(0,array_length(items_10))];
 }
 
-if (array_length(items_15)=0){
+if (array_length(items_15) = 0){
 	item2 = obj_heart_heal;
 } else {
 	item2 = items_15[random_range(0,array_length(items_15))];

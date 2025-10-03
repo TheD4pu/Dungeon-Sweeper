@@ -1,0 +1,1 @@
+angl = point_direction(x,y,global.camera_offset+camera_get_view_width(view_camera[0])/2,360);

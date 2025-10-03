@@ -11,8 +11,8 @@
   "name":"obj_laser",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"enemy_projectiles",
+    "path":"folders/Objects/enemies/enemy_projectiles.yy",
   },
   "parentObjectId":null,
   "persistent":false,

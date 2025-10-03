@@ -4,6 +4,6 @@ if (moving){
 }
 
 if (bounce){
-	x -= lengthdir_x(2,angl);
-	y -= lengthdir_y(2,angl);
+	x += lengthdir_x(2,bounce_center);
+	y += lengthdir_y(2,bounce_center);
 }

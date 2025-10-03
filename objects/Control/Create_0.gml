@@ -13,6 +13,7 @@ combo = 0;
 cur_cmb = 0;
 combo_UI_timer = 30;
 
+screen_shake = 0;
 
 scr_random();
 

@@ -1,4 +1,4 @@
-explo=false;
+explo = false;
 
-alarm[0]=150;
-alarm[1]=90;
+alarm[0] = 150;
+alarm[1] = 90;

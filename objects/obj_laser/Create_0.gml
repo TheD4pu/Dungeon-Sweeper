@@ -16,6 +16,7 @@ y_end = 1;
 
 hit = 0;
 wall = 0;
+blocker = 0;
 
 origin = collision_line(x,y,1,1, obj_ene4_laser,false,true);
 

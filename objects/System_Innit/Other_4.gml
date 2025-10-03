@@ -23,3 +23,14 @@ if (max_w >= base_w) {
 	surface_resize(application_surface,max_w,max_h);
 	display_set_gui_size(base_w,base_h);
 }
+
+show_debug_message("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+show_debug_message("Camera size = " + string(camera_get_view_width(view_camera[0])) + "x" + string(camera_get_view_height(view_camera[0])));
+show_debug_message("Max size = " + string(max_w) + "x" + string(max_h));
+show_debug_message("View size = " + string(view_width) + "x" + string(view_height));
+show_debug_message("Aspect = " + string(aspect));
+
+global.camera_offset = 640 - camera_get_view_width(view_camera[0])/2;
+camera_set_view_pos(view_camera[0], global.camera_offset,camera_get_view_y(view_camera[0]));
+
+show_debug_message("Camera offset = " + string(global.camera_offset));

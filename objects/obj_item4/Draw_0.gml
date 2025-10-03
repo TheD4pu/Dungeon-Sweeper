@@ -9,12 +9,12 @@ if (!purch){
 }
 
 if (description){
-	draw_set_alpha(0.5);
-	draw_roundrect_color(x-96,y-26,x+144,y-2,0,0,false);
+	draw_set_alpha(0.8);
+	draw_roundrect_color(x-110,y+62,x+158,y+88,dark_blue,dark_blue,false);
 	
 	draw_set_alpha(1);
 	draw_set_font(Description_text);
 	draw_set_halign(fa_center);
-	draw_text_color(x+23,y-23,"Swing swords while dashing",brick_blue,brick_blue,brick_blue,brick_blue,1);
-	draw_text(x+24,y-24,"Swing swords while dashing");
+	draw_text_color(x+23,y+62,"Swing swords while dashing",brick_blue,brick_blue,brick_blue,brick_blue,1);
+	draw_text(x+24,y+61,"Swing swords while dashing");
 }
