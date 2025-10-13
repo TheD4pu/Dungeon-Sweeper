@@ -20,7 +20,7 @@ if (144 < mouse_x && mouse_x < 1104 && !delay && !global.shopmenu){
 	}
 	
 	if (!item5_shield){
-		sprite_index = spr_plyr_atk;
+		sprite_index = spr_player_atk;
 	} else {
 		sprite_index = spr_item5player_atk;
 	}

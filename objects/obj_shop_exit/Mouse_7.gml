@@ -25,4 +25,5 @@ instance_activate_object(obj_player);
 instance_activate_object(obj_wall);
 instance_activate_object(obj_item9_orbiter);
 instance_activate_object(obj_item10_rat);
+instance_activate_object(obj_combo_effect);
 alarm[0] = 60;

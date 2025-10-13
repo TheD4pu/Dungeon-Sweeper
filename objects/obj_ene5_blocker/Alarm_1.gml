@@ -1,3 +1,3 @@
 hp += 1;
 
-image_index = 0;
+sprite_index = spr_ene_blocker;

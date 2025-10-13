@@ -1,1 +1,0 @@
-angl += 180 + random_range(-30,30);

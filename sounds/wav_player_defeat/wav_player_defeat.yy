@@ -2,8 +2,8 @@
   "$GMSound":"",
   "%Name":"wav_player_defeat",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"audio_group_sfx",
+    "path":"audiogroups/audio_group_sfx",
   },
   "bitDepth":1,
   "bitRate":128,
@@ -12,8 +12,8 @@
   "duration":1.1146939,
   "name":"wav_player_defeat",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

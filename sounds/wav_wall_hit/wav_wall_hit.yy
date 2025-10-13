@@ -2,8 +2,8 @@
   "$GMSound":"",
   "%Name":"wav_wall_hit",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"audio_group_sfx",
+    "path":"audiogroups/audio_group_sfx",
   },
   "bitDepth":1,
   "bitRate":128,
@@ -12,8 +12,8 @@
   "duration":0.61156464,
   "name":"wav_wall_hit",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"wav_wall_hit.wav",
   "type":0,
-  "volume":0.55,
+  "volume":1.0,
 }

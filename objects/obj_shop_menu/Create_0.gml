@@ -19,6 +19,9 @@ if (instance_exists(obj_heal_random)){
 	instance_deactivate_object(obj_heal_random);
 }
 
+if (instance_exists(obj_combo_effect)){
+	instance_deactivate_object(obj_combo_effect);
+}
 
 items_10 = [];
 items_15 = [];
@@ -50,6 +53,9 @@ if (!instance_exists(obj_item8)){
 if (!instance_exists(obj_item9)){
 	array_push(items_10,obj_item9);
 }	
+if (!instance_exists(obj_item8)){
+	array_push(items_15,obj_item10);
+}
 
 switch (obj_shop.shop_sprite){
 	case 0:

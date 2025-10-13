@@ -22,8 +22,18 @@ function scr_hurt(){
 		obj_hp.image_index = 0;
 		instance_destroy(obj_player);
 		audio_play_sound(wav_player_defeat,1,false);
-		obj_restart.x = camera_get_view_width(view_camera[0])*(29/60)+global.camera_offset;
-		obj_restart.y = 350;
+		
+		instance_create_depth(camera_get_view_width(view_camera[0])*(9/19)+global.camera_offset,camera_get_view_height(view_camera[0])/2,-1,obj_continue_btn);
+		
+		obj_restart.x = (camera_get_view_width(view_camera[0])*(7/19))+global.camera_offset;
+		obj_restart.y = camera_get_view_height(view_camera[0])/2; 
+
+		obj_exit_game_btn.x = (camera_get_view_width(view_camera[0])*(11/19))+global.camera_offset;
+		obj_exit_game_btn.y = camera_get_view_height(view_camera[0])/2;
+		
+		instance_deactivate_object(obj_pause_btn);
+		instance_deactivate_object(obj_options_btn);
+		
 		global.ad_count -= 1;
 		
 		/*if (global.ad_count <= 0){

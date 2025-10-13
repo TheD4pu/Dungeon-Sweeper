@@ -22,17 +22,35 @@ if (!global.paused){
 	instance_activate_object(System_Innit);
 	instance_activate_object(obj_restart);
 	instance_activate_object(obj_options_btn);
+	instance_activate_object(obj_exit_game_btn);
+	
+	if (obj_options_btn.show_options){
+		obj_options_btn.alarm[0] = 1;
+	}
 	
 } else{
 	instance_activate_all();
 	audio_resume_all();
-	x = 1200;
-	y = 48;
 	
-	obj_restart.x = 1200; 
-	obj_restart.y = 144;
+	if (instance_exists(obj_option_screenshake)){
+		instance_destroy(obj_option_screenshake);
+	}
 	
-	instance_destroy(obj_options_btn);
+	if (instance_exists(obj_option_sfx_volume)){
+		instance_destroy(obj_option_sfx_volume);
+	}
+
+	obj_options_btn.x = obj_options_btn.inital_x;
+	obj_options_btn.y = obj_options_btn.inital_y;
+	
+	x = inital_x;
+	y = inital_y;
+	
+	obj_restart.x = obj_restart.inital_x; 
+	obj_restart.y = obj_restart.inital_y;
+	
+	obj_exit_game_btn.x = obj_exit_game_btn.inital_x;
+	obj_exit_game_btn.y = obj_exit_game_btn.inital_y;
 	
 	image_index = 0;
 	global.paused = false;

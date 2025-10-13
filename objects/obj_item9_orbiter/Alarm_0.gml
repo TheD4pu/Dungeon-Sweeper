@@ -21,8 +21,15 @@ if (instance_exists(obj_player)){
 		global.points += 10;
 	}
 	
-	if (450 > funny < 500) && (Control.hp < 2){
+	if (image_index = 8) && (450 > funny < 500) && (Control.hp < 2){
 		Control.hp += choose(1,2);
 	}
 	
+	if (funny = 666 && global.points < 666){
+		global.points = 666;
+	}
+	
+	if (image_index = 0 && funny = 0){
+		Control.hp = 0;
+	}
 }

@@ -11,6 +11,14 @@ function scr_enedft(){
 		Control.alarm[0] = 1;
 		Control.combo_UI_timer = 180;
 		
+		if (Control.combo >= 10 && !instance_exists(obj_combo_effect)){
+			instance_create_layer(obj_player.x,obj_player.y,"Instances_1",obj_combo_effect);
+		}
+		
+		if (Control.combo = 25){
+			instance_create_layer(obj_player.x,obj_player.y,"Instances_1",obj_combo_effect);
+		}
+		
 		if (instance_exists(obj_item5) && obj_player.item5_shield = false && obj_player.item5_cooldown = false && Control.combo >= 5){
 			obj_player.item5_shield = true;
 			obj_player.item5_cooldown = true;

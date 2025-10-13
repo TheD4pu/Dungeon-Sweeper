@@ -12,7 +12,6 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_item4_swords","path":"objects/obj_item4_swords/obj_item4_swords.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_item7_spikes","path":"objects/obj_item7_spikes/obj_item7_spikes.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_item8_bomb","path":"objects/obj_item8_bomb/obj_item8_bomb.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_ene5_blocker","path":"objects/obj_ene5_blocker/obj_ene5_blocker.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_item9_orbiter","path":"objects/obj_item9_orbiter/obj_item9_orbiter.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_item10_rat","path":"objects/obj_item10_rat/obj_item10_rat.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],

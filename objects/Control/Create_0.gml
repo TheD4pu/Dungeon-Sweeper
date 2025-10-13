@@ -1,4 +1,7 @@
+x = global.camera_offset + camera_get_view_width(view_camera[0])*(1/27);
+
 hp = 3;
+continue_cost = 50;
 
 global.points = 0;
 global.maxcombo = 0;
@@ -11,7 +14,7 @@ global.items = 0;
 
 combo = 0;
 cur_cmb = 0;
-combo_UI_timer = 30;
+combo_UI_timer = global.camera_offset + camera_get_view_width(view_camera[0])*(1/27);
 
 screen_shake = 0;
 

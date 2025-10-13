@@ -14,8 +14,8 @@
   "name":"obj_start_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"buttons",
+    "path":"folders/Objects/buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_play_start_button",
-    "path":"sprites/spr_play_start_button/spr_play_start_button.yy",
+    "name":"spr_play_start_btn",
+    "path":"sprites/spr_play_start_btn/spr_play_start_btn.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -9,3 +9,5 @@ if (instance_exists(obj_player)){
 	
 	alarm [0] = 30;
 }
+
+image_index = irandom(8);

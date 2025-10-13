@@ -1,6 +1,6 @@
 draw_self();
 
-if (!title_click){
+if (!System_Innit.title_click){
 	draw_sprite(spr_title_screen,0,640, camera_get_view_height(view_camera[0])/2);
 
 	draw_sprite(spr_game_title,0, title_drop, camera_get_view_height(view_camera[0])/14);
