@@ -1,8 +1,8 @@
 	// enemy spawn
 	if (obj_spawner.enemy_limit >= 35){
-		spawn_enemy(choose(0,0,1,1,2,3,4,5));
+		spawn_enemy(choose(0,0,0,1,1,2,2,3,4,5));
 	} else if (obj_spawner.enemy_limit = 25){
-		spawn_enemy(choose(0,0,1,1,3,4,5));
+		spawn_enemy(choose(0,0,1,1,1,3,4,5));
 	
 	}else if (obj_spawner.enemy_limit = 20){
 		spawn_enemy(choose(0,0,1,1,1,4));

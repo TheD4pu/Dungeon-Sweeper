@@ -1,4 +1,3 @@
 if (instance_exists(obj_player)){
-	x += lengthdir_x(spd,angl);
-	y += lengthdir_y(spd,angl);
+	move_towards_point(obj_player.x,obj_player.y,spd);
 }

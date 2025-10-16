@@ -1,4 +1,4 @@
-if (global.shopmenu){
+if (global.shop_menu){
 
 	y = -48
 	layer_background_change(layer_background_get_id(layer_get_id("Background")),spr_background);

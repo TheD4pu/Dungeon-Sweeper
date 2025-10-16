@@ -1,4 +1,4 @@
-if (!global.shopmenu){
+if (!global.shop_menu){
 	instance_create_layer(624,400,"menus",obj_shop_menu, {
 		image_index: shop_sprite
 	});

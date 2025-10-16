@@ -8,13 +8,14 @@ if (instance_exists(obj_player)){
 	alarm[0] = 1;
 }
 
+
+
 if (Control.combo >= 20){
-	spd = 17;
-	trail_color = make_color_rgb(255,255,255);
-	
+	trail_color = make_color_rgb(30,70,195);
+	spd = 17.5;
 } else {
-	spd = 18;
 	trail_color = make_color_rgb(0,255,255);
+	spd = 17.8;
 }
 
 sprite = 0;

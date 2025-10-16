@@ -20,11 +20,11 @@ if (!purch){
 
 if (description){
 	draw_set_alpha(0.8);
-	draw_roundrect_color(x-114,y+62,x+162,y+88,dark_blue,dark_blue,false);
+	draw_roundrect_color(x-82,y+62,x+130,y+88,dark_blue,dark_blue,false);
 	
 	draw_set_alpha(1);
 	draw_set_font(Description_text);
 	draw_set_halign(fa_center);
-	draw_text_color(x+23,y+62,"Leave a bomb before a dash",brick_blue,brick_blue,brick_blue,brick_blue,1);
-	draw_text(x+24,y+61,"Leave a bomb before a dash");
+	draw_text_color(x+23,y+62,"Hungry for some gold",brick_blue,brick_blue,brick_blue,brick_blue,1);
+	draw_text(x+24,y+61,"Hungry for some gold");
 }

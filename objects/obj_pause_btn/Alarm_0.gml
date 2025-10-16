@@ -39,6 +39,7 @@ if (!global.paused){
 	if (instance_exists(obj_option_sfx_volume)){
 		instance_destroy(obj_option_sfx_volume);
 	}
+	
 
 	obj_options_btn.x = obj_options_btn.inital_x;
 	obj_options_btn.y = obj_options_btn.inital_y;
@@ -54,7 +55,7 @@ if (!global.paused){
 	
 	image_index = 0;
 	global.paused = false;
-	if (global.shopmenu){
+	if (global.shop_menu){
 		instance_deactivate_object(obj_wall);
 		instance_deactivate_object(obj_player);
 		instance_deactivate_object(obj_spawner);

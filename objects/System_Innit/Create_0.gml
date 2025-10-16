@@ -16,3 +16,5 @@ global.ad_count = 2;
 global.shake_setting = true;
 
 global.sfx_volume = 100;
+
+global.game_speed = 1;

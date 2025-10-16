@@ -14,7 +14,7 @@ if (!global.paused){
 	obj_pause_btn.alarm[0] = 1;
 	obj_pause_btn.image_index = 1;
 	
-	alarm[0] = 2;
+	alarm[0] = 1;
 } else if (!show_options){
 	alarm[0] = 1;
 } else {
@@ -22,4 +22,5 @@ if (!global.paused){
 	
 	instance_destroy(obj_option_screenshake);
 	instance_destroy(obj_option_sfx_volume);
+
 }

@@ -3,6 +3,14 @@ if (instance_exists(obj_player)){
 	alarm[0] = 5;
 }
 
+if (instance_exists(obj_player) && !obj_player.moving){
+	spd = 6;
+} else if (Control.combo >= 20){
+	spd = 17;
+} else {
+	spd = 17.5;
+}
+
 if (Control.combo < 5){
 	instance_destroy();
 }

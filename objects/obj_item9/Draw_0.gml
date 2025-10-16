@@ -15,6 +15,6 @@ if (description){
 	draw_set_alpha(1);
 	draw_set_font(Description_text);
 	draw_set_halign(fa_center);
-	draw_text_color(x+23,y+62,"Leave a bomb before a dash",brick_blue,brick_blue,brick_blue,brick_blue,1);
-	draw_text(x+24,y+61,"Leave a bomb before a dash");
+	draw_text_color(x+23,y+62,"qbdhccv xkbddfb vhvcvh gg",brick_blue,brick_blue,brick_blue,brick_blue,1);
+	draw_text(x+24,y+61,"qbdhccv xkbddfb vhvcvh gg");
 }

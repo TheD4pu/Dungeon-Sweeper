@@ -31,8 +31,9 @@ function scr_hurt(){
 		obj_exit_game_btn.x = (camera_get_view_width(view_camera[0])*(11/19))+global.camera_offset;
 		obj_exit_game_btn.y = camera_get_view_height(view_camera[0])/2;
 		
-		instance_deactivate_object(obj_pause_btn);
-		instance_deactivate_object(obj_options_btn);
+		obj_pause_btn.y = -100;
+		
+		obj_options_btn.y = -100;
 		
 		global.ad_count -= 1;
 		

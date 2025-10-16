@@ -15,6 +15,6 @@ if (instance_exists(obj_player)){
 			break;
 	}
 
-	draw_sprite_ext(sprite,obj_player.image_index,x,y,1,1,0,trail_color,0.4);
+	draw_sprite_ext(sprite,obj_player.image_index,x,y,1,1,0,trail_color,0.8);
 }
 

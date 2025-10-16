@@ -1,4 +1,4 @@
-if (instance_exists(obj_player) && !invincible && obj_item8_bomb.explo){
+if (instance_exists(obj_player) && !invincible){
 	atking = false;
 	invincible = true;
 	hurt = true;
@@ -13,4 +13,6 @@ if (instance_exists(obj_player) && !invincible && obj_item8_bomb.explo){
 	}
 	
 	alarm[1] = 20;
+	
+	obj_item8_bomb.alarm[0] = 1;
 }

@@ -1,4 +1,4 @@
-global.shopmenu = true;
+global.shop_menu = true;
 
 image_index = obj_shop.shop_sprite;
 
@@ -53,7 +53,7 @@ if (!instance_exists(obj_item8)){
 if (!instance_exists(obj_item9)){
 	array_push(items_10,obj_item9);
 }	
-if (!instance_exists(obj_item8)){
+if (!instance_exists(obj_item10)){
 	array_push(items_15,obj_item10);
 }
 

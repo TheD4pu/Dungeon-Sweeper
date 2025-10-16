@@ -1,4 +1,4 @@
 instance_destroy(obj_shop);
-global.shopmenu = false;
+global.shop_menu = false;
 
 instance_destroy();

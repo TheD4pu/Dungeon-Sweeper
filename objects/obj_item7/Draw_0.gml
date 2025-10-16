@@ -10,7 +10,7 @@ if (!purch){
 
 if (description){
 	draw_set_alpha(0.8);
-	draw_roundrect_color(x-204,y+62,x+252,y+88,dark_blue,dark_blue,false);
+	draw_roundrect_color(x-144,y+62,x+192,y+88,dark_blue,dark_blue,false);
 	
 	draw_set_alpha(1);
 	draw_set_font(Description_text);
