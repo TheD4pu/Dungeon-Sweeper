@@ -15,6 +15,10 @@ if (instance_exists(obj_item9_orbiter)){
 	instance_deactivate_object(obj_item9_orbiter);
 }
 
+if (instance_exists(obj_item10_rat)){
+	instance_deactivate_object(obj_item10_rat);
+}
+
 if (instance_exists(obj_heal_random)){
 	instance_deactivate_object(obj_heal_random);
 }

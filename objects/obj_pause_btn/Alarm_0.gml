@@ -24,6 +24,7 @@ if (!global.paused){
 	instance_activate_object(obj_options_btn);
 	instance_activate_object(obj_exit_game_btn);
 	
+	
 	if (obj_options_btn.show_options){
 		obj_options_btn.alarm[0] = 1;
 	}
