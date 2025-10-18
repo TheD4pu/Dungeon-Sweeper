@@ -48,10 +48,16 @@ function scr_enedft(){
 			instance_create_layer(obj_player.x,obj_player.y,"Instances_1",obj_combo_effect);
 		}
 		
-		if (instance_exists(obj_item5) && obj_player.item5_shield = false && obj_player.item5_cooldown = false && Control.combo >= 5){
+		if (instance_exists(obj_item5) && obj_player.item5_shield = false && obj_player.item5_cooldown = false && Control.combo >= 10){
 			obj_player.item5_shield = true;
 			obj_player.item5_cooldown = true;
-			obj_player.sprite_index = spr_item5player_atk;
+			
+			if (obj_player.sprite_index = spr_player_atk){
+				obj_player.sprite_index = spr_item5player_atk;
+			} else {
+				obj_player.sprite_index = spr_item5player;
+			}
+			
 			obj_player.alarm [2] = 300;
 		}
 		

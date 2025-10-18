@@ -1,4 +1,2 @@
-{
-	image_index = 0;
-	alarm [0] = 12;
-}
+image_index = 0;
+alarm [0] = 12;
